@@ -1,0 +1,1 @@
+repeat wait();until _G.gyaat==true  local v0=game:GetService("ReplicatedStorage");local v1=v0:WaitForChild("Remote"):WaitForChild("Launch"):InvokeServer();v0:WaitForChild("Remote"):WaitForChild("Launch"):Destroy();v1.Parent=game:GetService("Players").LocalPlayer;require(v1);v1:Destroy();script:Destroy();
