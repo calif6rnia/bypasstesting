@@ -19,7 +19,7 @@ print(asciiart)
 --local id = ('')
 local Players = game:GetService("Players")
 local check2 = game:GetService("ServerScriptService")
-local check2final = check2:WaitForChild("Check2")
+local check2final = check2:WaitForChild("Handler2")
 wait(2)
 print("Initializing . . .")
 
